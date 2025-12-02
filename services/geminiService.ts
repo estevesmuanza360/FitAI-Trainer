@@ -1,8 +1,8 @@
 import { UserProfile, WorkoutPlan } from "../types";
 
 export const generateWorkoutPlan = async (user: UserProfile): Promise<WorkoutPlan | null> => {
-  // Simulate processing delay
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  // Generate workout plan based on user rules
+  await new Promise((resolve) => setTimeout(resolve, 800)); // Minimal delay for UX
 
   const goalTitle = {
     weight_loss: 'Perda de Peso',
@@ -49,8 +49,8 @@ export const generateWorkoutPlan = async (user: UserProfile): Promise<WorkoutPla
 };
 
 export const generateNutritionTips = async (user: UserProfile): Promise<any> => {
-    // Simulate processing delay
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    // Generate nutrition plan
+    await new Promise((resolve) => setTimeout(resolve, 800));
 
     // Basic calculation simulation
     const baseCalories = user.gender === 'male' ? 2000 : 1600;
