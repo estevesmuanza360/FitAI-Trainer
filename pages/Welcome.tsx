@@ -13,7 +13,7 @@ export const Welcome = () => {
         </div>
         <h1 className="text-4xl font-bold tracking-tight mb-2">FitAI<span className="text-accent">.Trainer</span></h1>
         <p className="text-slate-400 text-center max-w-[250px]">
-          A revolução fitness impulsionada por Inteligência Artificial.
+          A revolução fitness impulsionada por tecnologia inteligente.
         </p>
       </div>
 

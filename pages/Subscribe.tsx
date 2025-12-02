@@ -55,7 +55,7 @@ export const Subscribe = () => {
                 Assine e desbloqueie treinos 100% personalizados
               </h1>
               <p className="text-slate-300 text-sm font-medium">
-                Receba planos criados por IA, acompanhamento diário e resultados reais.
+                Receba planos criados sob medida, acompanhamento diário e resultados reais.
               </p>
           </div>
        </div>
@@ -70,7 +70,7 @@ export const Subscribe = () => {
                    'Acesso a todos os planos',
                    'Suporte dentro do app',
                    'Exercícios com vídeos',
-                   'IA ajusta o treino conforme performance'
+                   'Sistema ajusta o treino conforme performance'
                  ].map((benefit, i) => (
                    <div key={i} className="flex items-start gap-3">
                       <div className="mt-0.5 min-w-[16px]">

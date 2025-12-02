@@ -21,10 +21,10 @@ export const Generate = () => {
         setWorkoutPlan(plan);
         navigate('/dashboard');
       } else {
-        setError('A IA não conseguiu gerar o treino agora. Tente novamente.');
+        setError('Não foi possível gerar o treino agora. Tente novamente.');
       }
     } catch (err) {
-      setError('Erro de conexão com a IA. Verifique sua chave API ou internet.');
+      setError('Erro de conexão. Verifique sua internet.');
     } finally {
       setLoading(false);
     }
@@ -39,7 +39,7 @@ export const Generate = () => {
 
       <h1 className="text-3xl font-bold mb-4">Criar Novo Plano</h1>
       <p className="text-slate-400 mb-8 max-w-xs mx-auto">
-        A Inteligência Artificial analisará seu perfil atualizado e criará uma rotina perfeita para os próximos 7 dias.
+        O sistema analisará seu perfil atualizado e criará uma rotina perfeita para os próximos 7 dias.
       </p>
 
       {error && (
@@ -56,12 +56,12 @@ export const Generate = () => {
         {loading ? (
           <>
             <Loader2 className="animate-spin" size={24} />
-            Pensando...
+            Gerando...
           </>
         ) : (
           <>
             <Wand2 size={24} />
-            Gerar com IA
+            Gerar Plano
           </>
         )}
       </button>

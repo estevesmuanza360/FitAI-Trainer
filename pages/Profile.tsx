@@ -205,7 +205,7 @@ export const Profile = () => {
           {/* 5. Equipamentos */}
           <SectionHeader icon={Dumbbell} title="Equipamentos" id="equip" />
           <SectionContent id="equip" onSave={() => handleSave('Equipamentos')}>
-              <p className="text-sm text-slate-400 mb-4">Selecione o que você tem disponível. A IA usará isso para criar seus treinos.</p>
+              <p className="text-sm text-slate-400 mb-4">Selecione o que você tem disponível. O sistema usará isso para criar seus treinos.</p>
               <div className="grid grid-cols-2 gap-2">
                   {allEquipments.map(item => (
                       <div 
@@ -319,7 +319,7 @@ export const Profile = () => {
       </button>
       
       <div className="text-center mt-6 text-xs text-slate-500">
-          FitAI Trainer v1.0.2
+          FitAI Trainer v1.0.3
       </div>
     </div>
   );

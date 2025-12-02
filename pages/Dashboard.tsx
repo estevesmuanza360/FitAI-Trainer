@@ -61,11 +61,11 @@ export const Dashboard = () => {
         </div>
       </div>
 
-      {/* Coach Note / AI Explanation */}
+      {/* Coach Note / System Explanation */}
       {workoutPlan?.explanation && (
           <div className="mb-6 bg-accent/10 border border-accent/20 p-4 rounded-xl">
              <div className="flex items-center gap-2 mb-2 text-accent font-bold text-sm">
-                <Info size={16} /> Nota do Treinador IA
+                <Info size={16} /> Nota do Treinador
              </div>
              <p className="text-slate-300 text-sm leading-relaxed italic">
                 "{workoutPlan.explanation}"
@@ -112,7 +112,7 @@ export const Dashboard = () => {
                 onClick={() => navigate('/generate')}
                 className="bg-accent text-primary px-6 py-2 rounded-xl font-bold"
               >
-                  Gerar com IA
+                  Gerar Plano
               </button>
           </div>
       )}

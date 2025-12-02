@@ -60,7 +60,7 @@ export const Nutrition = () => {
       </h2>
       
       {loading ? (
-          <div className="text-center p-8 text-slate-400 animate-pulse">Carregando sugestões da IA...</div>
+          <div className="text-center p-8 text-slate-400 animate-pulse">Carregando sugestões...</div>
       ) : nutritionData ? (
           <div className="space-y-6">
               <div className="grid grid-cols-3 gap-3">

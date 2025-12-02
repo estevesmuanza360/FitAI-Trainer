@@ -5,8 +5,8 @@ import { ChevronRight, Brain, Activity, Zap } from 'lucide-react';
 const steps = [
   {
     icon: <Brain size={64} className="text-accent" />,
-    title: "IA Personalizada",
-    description: "Nossa IA analisa seu perfil e cria treinos únicos adaptados aos seus objetivos e limites."
+    title: "Treino Personalizado",
+    description: "Nosso sistema analisa seu perfil e cria treinos únicos adaptados aos seus objetivos e limites."
   },
   {
     icon: <Activity size={64} className="text-accent" />,
