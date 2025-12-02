@@ -11,9 +11,9 @@ export const Welcome = () => {
         <div className="w-24 h-24 bg-accent/20 rounded-full flex items-center justify-center mb-6 shadow-[0_0_30px_rgba(163,230,53,0.3)]">
           <Dumbbell size={48} className="text-accent" />
         </div>
-        <h1 className="text-4xl font-bold tracking-tight mb-2">Fit<span className="text-accent">.Trainer</span></h1>
+        <h1 className="text-4xl font-bold tracking-tight mb-2">FitAI<span className="text-accent">.Trainer</span></h1>
         <p className="text-slate-400 text-center max-w-[250px]">
-          A revolução fitness impulsionada por tecnologia avançada.
+          A revolução fitness impulsionada por tecnologia inteligente.
         </p>
       </div>
 

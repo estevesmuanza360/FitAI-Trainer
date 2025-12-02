@@ -56,7 +56,7 @@ export const Generate = () => {
         {loading ? (
           <>
             <Loader2 className="animate-spin" size={24} />
-            Criando...
+            Gerando...
           </>
         ) : (
           <>

@@ -319,7 +319,7 @@ export const Profile = () => {
       </button>
       
       <div className="text-center mt-6 text-xs text-slate-500">
-          Fit Trainer v1.0.3
+          FitAI Trainer v1.0.3
       </div>
     </div>
   );
